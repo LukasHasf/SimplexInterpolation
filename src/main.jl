@@ -10,7 +10,7 @@ with x-coordinates `xs` and y-coordinates `ys`.
 """
 function compute_generalized_barycentric_coordinates(x, y, xs::AbstractVector, ys::AbstractVector)
     A = [ones(length(xs))'; xs'; ys']
-    b = [length(xs), x, y]
+    b = [1, x, y]
     λ = A\b
     return λ
 end
