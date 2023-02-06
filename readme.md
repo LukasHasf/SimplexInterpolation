@@ -1,4 +1,9 @@
 # Barycentric Interpolation
+
+| **Build Status**    |
+|:--------------------:|
+| ![][CI-img]|
+
 ## Installation
 ``` julia
 julia> ] add https://github.com/LukasHasf/SimplexInterpolation
@@ -16,3 +21,7 @@ itp_value = interpolate(itp_simplex, x_query, y_query)
 ```
 ## Example interpolation
 ![readme_example.png](readme_example.png)
+
+
+[CI-img]: https://github.com/LukasHasf/SimplexInterpolation/actions/workflows/ci.yml/badge.svg
+[CI-url]: https://github.com/LukasHasf/SimplexInterpolation/actions/workflows/ci.yml
