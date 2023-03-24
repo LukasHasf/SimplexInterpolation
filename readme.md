@@ -1,4 +1,4 @@
-# Barycentric Interpolation
+# SimplexInterpolation
 
 This package performs barycentric interpolation on unstructured data in 2D.
 
