@@ -1,6 +1,6 @@
 # Barycentric Interpolation
 
-This package performs barycentric interpolation on unstructerd data in 2D.
+This package performs barycentric interpolation on unstructured data in 2D.
 
 | **Build Status**    |
 |:--------------------:|
