@@ -1,5 +1,7 @@
 # Barycentric Interpolation
 
+This package performs barycentric interpolation on unstructerd data in 2D.
+
 | **Build Status**    |
 |:--------------------:|
 | ![][CI-img]|
